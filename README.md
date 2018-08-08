@@ -17,19 +17,20 @@ The kit requires a **2.5A 5V power supply**. Any less current and it is possible
 1. Setup/install the kit.
 1. Power up.
 1. Find the IP address.
-1. Power up and login using SSH.
+1. Login using SSH and get the Device EUI.
 1. Register a new gateway on The Things Network.
 1. Replace the default `global_config.json` file with the US915 version.
 1. Setup the `local_config.json` file with your specific gateway information.
 
 ### Setup/install the kit
-1. Plug in the antenna
-Please note that powering on the RAK831 gateway without an antenna may damage the radios. **The GPS antenna is optional.**
+* Plug in the antenna. Note that powering on the RAK831 gateway without the top antenna may damage the radios. **The GPS antenna is optional.**
 
 ![Antenna](https://github.com/bborncr/RAK831-GettingStarted-US915-TTN/blob/master/images/antenna.PNG)
 
-1. Connect the Raspberry PI to Ethernet and power up. Make sure that the power supply is 2.5A or more.
-1. Find the IP address
+### Power up
+* Connect the Raspberry PI to your router via Ethernet and power up. Make sure that the power supply is 2.5A or more.
+### Find the IP address
+* After waiting 30 seconds, the network should have assigned an IP address. There are several methods to find the IP address without connecting a keyboard and monitor depending on your operating system. [Here is the link to the official Raspberry Pi documentation.](https://www.raspberrypi.org/documentation/remote-access/ip-address.md)
 ### Register a new gateway on The Things Network
 ### Replace the default `global_config.json` file with the US915 version
 The default `global_config.json` file is for the European band. We need to replace this file with a US915 band version. Using the following three commands we move to the `/opt/ttn-gateway/bin` directory, then download the `US-global_conf.json` file and then finally replace the `global_config.json` file.
