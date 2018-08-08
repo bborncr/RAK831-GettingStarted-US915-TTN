@@ -23,8 +23,8 @@ The kit requires a **2.5A 5V power supply**. Any less current and it is possible
 
 ### Setup/install the kit
 #### Plug in the antenna
-Please note that powering on the RAK831 gateway without an antenna may damage the radios.
-The GPS antenna is optional.
+Please note that powering on the RAK831 gateway without an antenna may damage the radios. **The GPS antenna is optional.**
+
 ![Antenna](https://github.com/bborncr/RAK831-GettingStarted-US915-TTN/blob/master/images/antenna.PNG)
 
 ### Register a new gateway on The Things Network
