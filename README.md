@@ -74,5 +74,6 @@ Make the following modifications:
 Reboot the Raspberry PI using `sudo shutdown -r now`
 
 In a few minutes the gateway should appear as **connected** in the TTN console.
+
 The gateway logs can be seen using `sudo tail -f /var/log/syslog`
 
