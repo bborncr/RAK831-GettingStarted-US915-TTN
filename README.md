@@ -45,8 +45,8 @@ The Gateway ID can be any 8 byte hexadecimal that you like, however, an unoffici
 * In `gateways` click on `register gateway`
 * Select `I'm using the legacy packet forwarder`
 * Copy your Gateway ID into the form
-* Choose the US Frequency Plan and ttn-router-us-west
-* Select the location of you gateway in the map
+* Choose the US Frequency Plan and `ttn-router-us-west`
+* Select the location of the gateway in the map
 * Click on `Register Gateway`
 ### Replace the default `global_config.json` file with the US915 version
 The default `global_config.json` file is for the European band. We need to replace this file with a US915 band version. Using the following three commands we move to the `/opt/ttn-gateway/bin` directory, then download the `US-global_conf.json` file and then finally replace the `global_config.json` file.
